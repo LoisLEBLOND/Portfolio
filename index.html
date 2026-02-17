@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html lang="fr">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Mon Portfolio</title>
+    <meta name="title" content="Mon Portfolio" />
+
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="16x16"
+      href="/assets/favicon/favicon-16x16.png"
+    />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="assets/favicon/favicon-32x32.png"
+    />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="192x192"
+      href="assets/favicon/android-chrome-192x192.png"
+    />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="512x512"
+      href="assets/favicon/android-chrome-512x512.png"
+    />
+    <link rel="icon" type="image/x-icon" href="assets/favicon/favicon.ico" />
+    <link rel="manifest" href="assets/favicon/site.webmanifest" />
+    <link
+      rel="stylesheet"
+      href="https://use.fontawesome.com/releases/v5.15.4/css/all.css"
+      integrity="sha384-DyZ88mC6Up2uqS4h/KRgHuoeGwBcD4Ng9SiP4dIRy0EXTlnuz47vAwmeGwVChigm"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="css/style.css" />
+    <link rel="stylesheet" href="css/utilities.css" />
+  </head>
+  <body>
+    <header id="hero">
+      <nav class="navbar">
+        <div class="container">
+          <h1 id="logo">
+            <a href="#"
+              ><img src="./assets/logo.png" alt="Your Logo"
+            /></a>
+          </h1>
+          <ul class="nav-menu">
+            <li><a class="nav-link" href="#projects">PROJETS</a></li>
+            <li><a class="nav-link" href="#">CONTACT</a></li>
+
+            <div class="theme-switch">
+              <input type="checkbox" id="switch" />
+              <label class="toggle-icons" for="switch">
+                <img class="moon" src="assets/moon.svg" />
+                <img class="sun" src="assets/sun.svg" />
+              </label>
+            </div>
+          </ul>
+          <div class="hamburger">
+            <span class="bar"></span>
+            <span class="bar"></span>
+            <span class="bar"></span>
+          </div>
+        </div>
+      </nav>
+
+      <section class="header-container">
+        <img
+          class="profile-image"
+          src="assets/ma-tete.jpg"
+          alt=""
+        />
+        <h1>Bonjour, je suis Loïs</h1>
+
+        <div class="content-text">
+          <h2>Développeur Web/Unity</h2>
+          <h2>HTML, CSS, C#</h2>
+
+          <p>
+            Je suis un développeur web et Unity passionné, spécialisé dans la création de sites web interactifs et de jeux vidéo. Avec des connaissances en HTML, CSS et C#, je combine mes compétences pour donner vie à des projets qui me passionnent.
+          </p>
+        </div>
+        <a
+          href="assets/LEBLOND-Lois-cv.pdf"
+          class="btn btn-secondary"
+          download
+          >Mon CV</a
+        >
+      </section>
+    </header>
+
+    <section id="projects" class="project-container container">
+      <div class="division"></div>
+      <div class="content-text">
+        <h2>Mes projets</h2>
+        <p>Visitez mes projets !</p>
+      </div>
+
+      <article class="project">
+        <div href="" class="card">
+          <div class="project-info">
+            <div class="project-bio">
+              <h3>Site Outer Wilds</h3>
+              <p>Javascript, HTML, CSS</p>
+            </div>
+
+                  <div class="project-link">
+                    <a href="https://github.com/LoisLEBLOND/OuterWilds" target="_blank"><i class="fab fa-github"></i></a>
+                    <a href="https://outer-wilds-pied.vercel.app" target="_blank"><i class="fas fa-globe"></i></a>
+                  </div>
+          </div>
+              </div>
+
+        <div class="card">
+          <div class="project-info">
+            <div class="project-bio">
+              <h3>Pokémon Clicker</h3>
+              <p>Javascript, HTML, CSS</p>
+            </div>
+
+            <div class="project-link">
+              <a href="https://github.com/LoisLEBLOND/Pokemon-Clicker" target="_blank"><i class="fab fa-github"></i></a>
+              <a href="https://pokemon-clicker-teal.vercel.app" target="_blank"><i class="fas fa-globe"></i></a>
+            </div>
+          </div>
+        </div>
+
+    </section>
+
+    <footer id="footer">
+      <div class="container">
+        <img src="assets/kirby.png" style="max-width: 3%;"/>
+        <a href="mailto:lois.leblond2305@gmail.com">lois.leblond2305@gmail.com</a>
+        <div class="social">
+          <a href="https://www.linkedin.com/in/loïs-leblond-249915334/" target="_blank"
+            ><img src="./assets/linkedin-icon.svg" alt="Linkedin"
+          /></a>
+          <a href="https://github.com/LoisLEBLOND" target="_blank"><img src="./assets/github-icon.svg" alt="GitHub" /></a>
+        </div>
+        <p><span id="datee"></span></p>
+      </div>
+    </footer>
+    <script src="js/script.js"></script>
+  </body>
+</html>
